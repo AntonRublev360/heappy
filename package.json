@@ -1,0 +1,43 @@
+{
+  "name": "heappy",
+  "version": "0.0.1",
+  "description": "Simple Heap implementation with mutateTop method",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonRublev360/heappy.git"
+  },
+  "keywords": [
+    "heap"
+  ],
+  "author": "anton.v.rublev@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AntonRublev360/heappy/issues"
+  },
+  "homepage": "https://github.com/AntonRublev360/heappy#readme",
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "jest": "^22.4.4",
+    "typescript": "^2.8.3"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.ts$": "<rootDir>/preprocessor.js"
+    },
+    "testMatch": [
+      "**/*.spec.ts"
+    ]
+  }
+}
